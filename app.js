@@ -16,7 +16,7 @@ const callInstagram = async () => {
     const page = await browser.newPage();
 
     // Go to your site
-    await page.goto('https://www.instagram.com/spacetoday1/');
+    await page.goto('https://www.instagram.com/saraborgesch/');
     await page.setViewport({width: 1080, height: 1024});
 
 
@@ -34,6 +34,9 @@ const callInstagram = async () => {
         console.log("teste222", dados)
         return dados
     })
+
+    console.log("teste vai", data)
+
     // Close browser.
     // await browser.close();
 }
